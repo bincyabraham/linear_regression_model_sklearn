@@ -1,22 +1,33 @@
 # linear_regression_model_sklearn
-# Linear Regression Model with scikit-learn
+# Heart Data Regression Model using Machine Learning
 
-This project demonstrates a basic implementation of a Linear Regression model using Python. It uses synthetic data generated with `make_regression` and covers the full ML pipeline: data preparation, model training, visualization, and performance evaluation.
+This project uses heart health data to train a regression model that predicts a numerical target variable using clinical and demographic features. It includes data preprocessing, model training, evaluation, and visualization.
 
-## 🔍 Overview
+## 🔧 Tools Used
+- Python
+- Google Colab / Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib
+- Scikit-learn
 
-- Generate synthetic regression data
-- Train a linear regression model using `scikit-learn`
-- Visualize the best-fit line
-- Evaluate model performance using R² Score and Mean Squared Error (MSE)
+## 📊 Model Used
+- Linear Regression
 
-## 📂 Files
+## 💡 Key Steps
+- Load and inspect `heart.csv`
+- Data cleaning and feature preprocessing
+- Visualize feature correlations
+- Split data into training and test sets
+- Train a Linear Regression model
+- Evaluate model using R² Score and Mean Squared Error (MSE)
+- Plot predicted vs actual values
 
-- `linear_regression_model_sklearn.ipynb`: Jupyter Notebook containing the complete code, visualizations, and results.
+## 📁 Dataset Source
+Local CSV file: `heart.csv`  
 
-## 🛠️ Requirements
+## 📎 Run the Notebook
+You can run this notebook on Google Colab:  
+[Open in Colab](https://colab.research.google.com/drive/1aDRQujqSsKNr1-JVF2KEEwM4leNYrqsD?usp=sharing)
 
-Install the dependencies with pip:
+---
 
-```bash
-pip install scikit-learn numpy matplotlib
